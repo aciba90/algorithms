@@ -1,5 +1,5 @@
 """
-[easy][company]
+[#000][easy][company]
 
 <description>
 """
@@ -8,11 +8,10 @@ import unittest
 
 
 def solve():
-    pass
+    return 0
 
 
 class TestClass(unittest.TestCase):
-
     @staticmethod
     def solve(*args, **kwargs):
         return solve(*args, **kwargs)

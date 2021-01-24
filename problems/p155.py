@@ -33,7 +33,6 @@ def solve(array):
 
 
 class TestClass(unittest.TestCase):
-
     @staticmethod
     def solve(*args, **kwargs):
         return solve(*args, **kwargs)
@@ -43,7 +42,7 @@ class TestClass(unittest.TestCase):
         self.assertEqual(result, 1)
 
     def test_1(self):
-        result = self.solve([1, 2, 2, 2, 1, 1, 3, 2, 4, 0])
+        result = self.solve([1, 2, 2, 2, 1, 2, 3, 2, 4, 0])
         self.assertEqual(result, 2)
 
 
