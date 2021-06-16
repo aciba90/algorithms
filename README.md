@@ -1,6 +1,7 @@
-# daily-coding-problem
+# algorithms
 
-## Summary
+## daily-coding-problem
+
 | Id  | Difficulty | Company | Status      | Link |
 |----:|------------|---------|-------------|------|
 | 135 | easy       | apple   | in-progress |      |

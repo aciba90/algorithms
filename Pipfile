@@ -9,7 +9,6 @@ name = "pypi"
 black = "*"
 flake8 = "*"
 pytest = "*"
-invoke = "*"
 
 [requires]
 python_version = "3.9"
