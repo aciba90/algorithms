@@ -41,7 +41,7 @@ def missing_number(nums: List[int]) -> int:
     Time: O(n)
     Space: O(1)
     """
-    return (len(nums) * (len(nums) + 1) / 2) - sum(nums)
+    return (len(nums) * (len(nums) + 1) // 2) - sum(nums)
 
 
 @pytest.mark.parametrize(
