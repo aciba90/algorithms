@@ -1,6 +1,6 @@
 
 test:
-	python -m pytest -v ./src/**/*.py
+	python -m pytest -vv ./src/**/*.py
 
 format:
 	python -m black ./src
